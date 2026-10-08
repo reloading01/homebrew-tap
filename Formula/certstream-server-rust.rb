@@ -4,28 +4,28 @@
 class CertstreamServerRust < Formula
   desc "Certificate Transparency log streaming server"
   homepage "https://certstream.dev"
-  version "1.6.5"
+  version "1.6.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "b10e53a7d5fd162f7a4d2a1aa43926ad4677a0eac6add11753b5262c29e5c3f0"
+      sha256 "7428eb10000f4435166fc9006c27d8fe2385b4ff6e4fe930812a00b320c9feda"
     end
     on_intel do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "4772e3f4dc62e412082fd0fc3c02d88ad77a3fcadfc4d030638370944ae665e2"
+      sha256 "90474de1ac3043bc00877ec5f15d5e2a25cb3497944f3b0eea4e52cfe647f24f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7273ba8078a02d209acbf8c6eb54ef4394ec066a47cc106ec2f076f414cb0cfa"
+      sha256 "c9b7da3e9a9aff75ffd82eb566e732553d8d1badf00fc7f8b045e388ac66329b"
     end
     on_intel do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9089a2bce80fe91b03ae3ea10095866994389160a3e0611e5b722dfc755e019a"
+      sha256 "1372bdc7b56ed96f65fbf5d0dc4bd609f42fb35db02e2ea0a9df9f7f77adb0ca"
     end
   end
 
