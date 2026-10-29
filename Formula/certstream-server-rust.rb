@@ -10,22 +10,22 @@ class CertstreamServerRust < Formula
   on_macos do
     on_arm do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "ba48a8dec74b15fe7408a1b6a1ae9059f98ccd39f3ab48061ae8d1295fbdd909"
+      sha256 "cfb336d11551cc3b87e47cb910ce4ad35a58e78ff81fe68b3197e2142371fb5f"
     end
     on_intel do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "054129ffa408fda8a93939b91f9864327b4ccb15d3ca3395363a0cad0c41e70f"
+      sha256 "fdc6a341bb73bddb7796d9373d46c98fe400507aac1f2228697fece948b60a1a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d7cc421c01e818aace79ac949b00b2a6d76ebfd339d7951d8806d113f0fa41b0"
+      sha256 "2ae45e683e42e97485e4ace7bb6701e28ec6bfdb58551cd51bf56c285d01cba1"
     end
     on_intel do
       url "https://github.com/reloading01/certstream-server-rust/releases/download/v#{version}/certstream-server-rust-#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "17a0323a7633f06b2f7c969d55c9788d2008e478e9c697221a673f5e077ba760"
+      sha256 "3d4f86e7b7b52b92796f6d3e8fceba267aca9944be099131a87c9515496b9821"
     end
   end
 
